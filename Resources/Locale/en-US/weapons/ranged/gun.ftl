@@ -1,54 +1,53 @@
 
-gun-selected-mode-examine = Current selected fire mode is [color={$color}]{$mode}[/color].
-gun-fire-rate-examine = Fire rate is [color={$color}]{$fireRate}[/color] rounds per minute.
-gun-burst-fire-rate-examine = Burst fire rate is [color={$color}]{$fireRate}[/color] rounds per minute.
-gun-burst-fire-burst-count = It can be set to fire in [color={$color}]{$burstcount}[/color] round bursts.
-gun-damage-modifier-examine = Its shots deal [color={$color}]{$damage}x[/color] damage.
-gun-selector-verb = Change to {$mode}
-gun-selected-mode = Selected {$mode}
-gun-disabled = You can't use guns!
-gun-clumsy = The gun blows up in your face!
-gun-set-fire-mode = Set to {$mode}
-gun-magazine-whitelist-fail = That won't fit into the gun!
+gun-selected-mode-examine = O modo de disparo selecionado atualmente é [color={$color}]{$mode}[/color].
+gun-fire-rate-examine = A cadência de disparo [color={$color}]{$fireRate}[/color] tiros por minutos.
+gun-burst-fire-rate-examine = A taxa de disparos em rajadas é [color={$color}]{$fireRate}[/color] tiros por minutos.
+gun-burst-fire-burst-count = Pode ser ajustado para disparar em [color={$color}]{$burstcount}[/color] rajadas.
+gun-damage-modifier-examine = O tiro causa [color={$color}]{$damage}x[/color] de dano.
+gun-selector-verb = Alterar para {$mode}
+gun-selected-mode = Selecionar {$mode}
+gun-disabled = Você não pode usar armas!
+gun-clumsy = A arma explode na sua cara!
+gun-set-fire-mode = Seleciona para {$mode}
 
 # SelectiveFire
-gun-SemiAuto = semi-auto
-gun-Burst = burst
-gun-FullAuto = full-auto
+gun-SemiAuto = semiautomático
+gun-Burst = rajada
+gun-FullAuto = automático
 
 # BallisticAmmoProvider
-gun-ballistic-cycle = Cycle
-gun-ballistic-cycled = Cycled
-gun-ballistic-cycled-empty = Cycled (empty)
-gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} won't fit inside {THE($targetEntity)}!
-gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} is empty.
-gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} is already fully loaded.
+gun-ballistic-cycle = Ciclar
+gun-ballistic-cycled = Ciclado
+gun-ballistic-cycled-empty = Ciclado (vazio)
+gun-ballistic-transfer-invalid = {CAPITALIZE(A($ammoEntity))} não entra {NA($targetEntity)}!
+gun-ballistic-transfer-empty = {CAPITALIZE(O($entity))} está vazio.
+gun-ballistic-transfer-target-full = {CAPITALIZE(O($entity))} já está totalmente carregado.
 
 # CartridgeAmmo
-gun-cartridge-spent = It is [color=red]spent[/color].
-gun-cartridge-unspent = It is [color=lime]not spent[/color].
+gun-cartridge-spent = Está [color=red]gasto[/color].
+gun-cartridge-unspent = Está [color=lime]viva[/color].
 
 # BatteryAmmoProvider
-gun-battery-examine = It has enough charge for [color={$color}]{$count}[/color] shots.
+gun-battery-examine = Tem carga suficiente para [color={$color}]{$count}[/color] tiros.
 
 # CartridgeAmmoProvider
-gun-chamber-bolt-ammo = Gun not bolted
-gun-chamber-bolt = The bolt is [color={$color}]{$bolt}[/color].
-gun-chamber-bolt-closed = Closed bolt
-gun-chamber-bolt-opened = Opened bolt
-gun-chamber-bolt-close = Close bolt
-gun-chamber-bolt-open = Open bolt
-gun-chamber-bolt-closed-state = open
-gun-chamber-bolt-open-state = closed
-gun-chamber-rack = Rack
+gun-chamber-bolt-ammo = Ferrolho não engatilhado
+gun-chamber-bolt = O ferrolho está [color={$color}]{$bolt}[/color].
+gun-chamber-bolt-closed = Ferrolho fechado
+gun-chamber-bolt-opened = Ferrolho aberto
+gun-chamber-bolt-close = Fechar ferrolho
+gun-chamber-bolt-open = Abrir ferrolho
+gun-chamber-bolt-closed-state = aberto
+gun-chamber-bolt-open-state = fechado
+gun-chamber-rack = Puxar o ferrolho
 
 # MagazineAmmoProvider
-gun-magazine-examine = It has [color={$color}]{$count}[/color] shots remaining.
+gun-magazine-examine = Tem [color={$color}]{$count}[/color] tiros restantes.
 
 # RevolverAmmoProvider
-gun-revolver-empty = Empty revolver
-gun-revolver-full = Revolver full
-gun-revolver-insert = Inserted
-gun-revolver-spin = Spin revolver
-gun-revolver-spun = Spun
-gun-speedloader-empty = Speedloader empty
+gun-revolver-empty = Revólver vazio
+gun-revolver-full = Revólver cheio
+gun-revolver-insert = Inserido
+gun-revolver-spin = Girar o revólver
+gun-revolver-spun = Girado
+gun-speedloader-empty = Speedloader vazio
